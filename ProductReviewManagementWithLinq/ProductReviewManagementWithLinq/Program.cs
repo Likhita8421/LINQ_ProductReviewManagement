@@ -37,11 +37,11 @@ namespace ProductReviewManagementWithLinq
                 new ProductReview(){ProductID=20,UserID=10,Rating=1,Review="Bad",isLike=false},
                 new ProductReview(){ProductID=20,UserID=10,Rating=5,Review="Good",isLike=true}
             };
-            /*foreach (var list in productReviewList)
+            foreach (var list in productReviewList)
             {
                 Console.WriteLine("ProductID:-" + list.ProductID + " " + "UserID:-" + list.UserID + " " + "Ratins:-" + list.Rating + " " +
                     "Review:-" + list.Review + " " + "isLike:-" + list.isLike);
-            }*/
+            }
 
             //UC-2
             Management management = new Management();
