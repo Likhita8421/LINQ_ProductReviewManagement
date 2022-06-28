@@ -45,10 +45,10 @@ namespace ProductReviewManagementWithLinq
 
             //UC-2
             Management management = new Management();
-            management.Top3Records(productReviewList);
+            //management.Top3Records(productReviewList);
 
             //UC-3
-            //management.SelectedRecords(productReviewList);
+            management.SelectedRecords(productReviewList);
 
             //UC-4
             //management.RetrieveCountOfRecords(productReviewList);
