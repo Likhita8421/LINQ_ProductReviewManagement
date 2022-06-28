@@ -66,10 +66,10 @@ namespace ProductReviewManagementWithLinq
             //management.createDatatable_Using_Csharp(productReviewList);
 
             //UC-9
-            management.RetriveRecordsWhose_islike_True(productReviewList);
+            //management.RetriveRecordsWhose_islike_True(productReviewList);
 
             //UC-10
-            //management.AvgOfProductID(productReviewList);
+            management.AvgOfProductID(productReviewList);
 
             //UC-11
             //management.RetreiveRecordsWhose_Review_nice(productReviewList);
