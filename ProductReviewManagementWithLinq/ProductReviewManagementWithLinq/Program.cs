@@ -69,10 +69,10 @@ namespace ProductReviewManagementWithLinq
             //management.RetriveRecordsWhose_islike_True(productReviewList);
 
             //UC-10
-            management.AvgOfProductID(productReviewList);
+            //management.AvgOfProductID(productReviewList);
 
             //UC-11
-            //management.RetreiveRecordsWhose_Review_nice(productReviewList);
+            management.RetreiveRecordsWhose_Review_nice(productReviewList);
 
             //UC12
             //management.RetreiveRecordsWhose_UserID_10(productReviewList);
