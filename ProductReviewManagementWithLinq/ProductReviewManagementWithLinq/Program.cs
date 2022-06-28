@@ -60,10 +60,10 @@ namespace ProductReviewManagementWithLinq
             //management.SkipTop5Records(productReviewList);
 
             //UC-7
-            management.UsingSelectLINQ_retriveProductIDAndReview(productReviewList);
+            //management.UsingSelectLINQ_retriveProductIDAndReview(productReviewList);
 
             //UC-8
-            //management.createDatatable_Using_Csharp(productReviewList);
+            management.createDatatable_Using_Csharp(productReviewList);
 
             //UC-9
             //management.RetriveRecordsWhose_islike_True(productReviewList);
