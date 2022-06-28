@@ -72,10 +72,10 @@ namespace ProductReviewManagementWithLinq
             //management.AvgOfProductID(productReviewList);
 
             //UC-11
-            management.RetreiveRecordsWhose_Review_nice(productReviewList);
+            //management.RetreiveRecordsWhose_Review_nice(productReviewList);
 
             //UC12
-            //management.RetreiveRecordsWhose_UserID_10(productReviewList);
+            management.RetreiveRecordsWhose_UserID_10(productReviewList);
         }
     }
 }
